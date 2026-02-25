@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kelas Kita</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <nav class="navbar">
+        <div class="logo">Kelas XII <span>Nusantara</span></div>
+        <ul class="nav-links">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#anggota">Anggota</a></li>
+            <li><a href="#jadwal">Jadwal</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header id="beranda" class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di Web Kelas Kami</h1>
+            <p>Solidaritas tanpa batas, belajar keras, sukses bersama!</p>
+            <a href="#anggota" class="btn">Kenalan Yuk!</a>
+        </div>
+    </header>
+
+    <section id="tentang" class="section">
+        <h2>Tentang Kelas</h2>
+        <p>Kami adalah kelas yang penuh semangat, terdiri dari siswa-siswi berprestasi dengan berbagai macam bakat. Wali kelas kami adalah <strong>Bapak Budi Santoso, S.Pd</strong>.</p>
+    </section>
+
+    <section id="anggota" class="section bg-light">
+        <h2>Anggota Kelas</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://ui-avatars.com/api/?name=Ketua+Kelas&background=random" alt="Ketua Kelas">
+                <h3>Andi Setiawan</h3>
+                <p>Ketua Kelas</p>
+            </div>
+            <div class="card">
+                <img src="https://ui-avatars.com/api/?name=Wakil+Ketua&background=random" alt="Wakil">
+                <h3>Siti Aminah</h3>
+                <p>Wakil Ketua</p>
+            </div>
+            <div class="card">
+                <img src="https://ui-avatars.com/api/?name=Bendahara&background=random" alt="Bendahara">
+                <h3>Budi Doremi</h3>
+                <p>Bendahara</p>
+            </div>
+            </div>
+    </section>
+
+    <section id="jadwal" class="section">
+        <h2>Jadwal Pelajaran</h2>
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>Senin</th>
+                    <th>Selasa</th>
+                    <th>Rabu</th>
+                    <th>Kamis</th>
+                    <th>Jumat</th>
+                </tr>
+                <tr>
+                    <td>Upacara</td>
+                    <td>Matematika</td>
+                    <td>B. Inggris</td>
+                    <td>Biologi</td>
+                    <td>Olahraga</td>
+                </tr>
+                <tr>
+                    <td>B. Indonesia</td>
+                    <td>Fisika</td>
+                    <td>Sejarah</td>
+                    <td>Kimia</td>
+                    <td>Seni Budaya</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Kelas XII Nusantara. Dibuat dengan ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
